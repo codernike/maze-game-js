@@ -20,6 +20,10 @@ body {
 .heading{
     margin-top: 50px;
 }
+#mazeCanvas{
+    max-width: 70%;
+    min-width: 300px;
+}
 #mazeContainer {
     transition-property: opacity;
     transition-duration: 1s;
