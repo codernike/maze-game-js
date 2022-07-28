@@ -17,7 +17,9 @@ body {
     left: 0;
     right: 0;
 }
-
+.heading{
+    margin-top: 50px;
+}
 #mazeContainer {
     transition-property: opacity;
     transition-duration: 1s;
