@@ -585,4 +585,5 @@ function rand(max) {
     }
   }
   
+
   
