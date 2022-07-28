@@ -1,3 +1,22 @@
+function shownav(){
+    const display= document.getElementById('dropdown').style.display;
+    if(display=='none'){
+     document.getElementById('dropdown').style.display='flex';
+         } else {
+             document.getElementById('dropdown').style.display='none';
+         }
+ }
+ 
+ function menubar(){
+ const menubar =document.getElementById('nav-form').style.display;
+ if(menubar=='none'){
+     document.getElementById('nav-form').style.display ='block';
+     document.getElementById('nav-ul').style.display='block';
+     document.getElementById('form-contact').style.display='block';
+ } else{
+     document.getElementById('nav-form').style.display ='none';
+ }
+ }
 function rand(max) {
     return Math.floor(Math.random() * max);
   }

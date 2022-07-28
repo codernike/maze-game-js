@@ -134,7 +134,135 @@ select {
            
     }
 }
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.nav-bar{
+ background-color: rgb(242, 115, 5);
+  padding: 15px;
+  width: 100%;
+}
+#nav-ul{
+       margin-left: 30px;
+    display: flex;
+    list-style-type: none;
+    gap:4%;
+    font-size: larger;
+}
+.container img{
+    width: 60px;
+    border-radius: 15px;
+}
+.drop-down{
+    gap: 20%;
+   
+}
 
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    font-size: medium;
+    font-weight: bold;
+    border:transparent 0px solid;
+    border-radius: 13px;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+#form-contact{
+    position: absolute;
+    right: 30px;
+    gap: 3%;
+    text-decoration: none;
+}
+
+.nav-bar #form-contact{
+    transform:translatex(0px) translatey(-23px);
+   }
+   #form-contact a{
+    color: white;
+    text-decoration: none;
+   }
+   #form-contact a:hover{
+    color: blue;
+   }
+   #menu-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+   }
+.bottom-foot{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+.bottom-foot a{
+    color: white;
+    text-decoration: none;
+}
+
+.gap-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  #nav-ul a{
+    color: black;
+    text-decoration: none;
+  }
+ #form-id{
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    max-width: 350px;
+    min-width: 300px;
+    box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.2);
+ }
+ .input-form{
+    padding: 10px;
+   width: 90%;
+   margin-top: 5%;
+ }
+ #nav-form{
+    display: inline;
+ }
+  @media screen and (max-width:651px) {
+    .container{
+        display: block;
+        text-align: center;
+        gap:14px;
+    }
+    #nav-ul{
+        display:none;
+        
+    }
+    #form-contact{
+        position: static;
+        display: none;
+        margin-top: 40px;
+    }
+    #menu-btn{
+        display: block;
+    }
+    .nav-li{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #dropdown{
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.2);
+    }
+    #nav-form{
+        display: none;
+    }
+}
 .border {
     border: 1px black solid;
     border-radius: 5px;
